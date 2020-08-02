@@ -2,6 +2,7 @@ import cv2
 
 face_cascade = cv2.CascadeClassifier('for_face.xml')
 cap = cv2.VideoCapture('v.mp4')
+# use 0 (inbuilt webcam) -1 (for external webcam) instead of v.mp4 to get results from webcam
 
 
 while True:
