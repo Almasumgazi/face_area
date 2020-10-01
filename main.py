@@ -1,4 +1,6 @@
 import cv2
+#openCV module
+
 
 face_cascade = cv2.CascadeClassifier('for_face.xml')
 cap = cv2.VideoCapture('v.mp4')
